@@ -1,0 +1,276 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+*{
+  margin:0;
+  /* padding:0; */
+}
+
+p{
+  font-size:14pt;
+}
+
+h1 {
+  text-align: center;
+  color:#f2948b;
+  font-size:9vh;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sectionTitle {
+  color: #fdb49c;
+  padding-left: 2vh;
+  font-size: 30pt;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top:4vh
+}
+
+#quoteContainer {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-image:url("aesthetic\ beach\ pic.avif");
+  background-size:cover;
+  height:35vh;
+  color:#b9726a;
+  /* -webkit-text-stroke:1px white; */
+  font-size:x-large;
+  animation:fade 5s;
+}
+
+#quote{
+  animation:fade 1s;
+  animation-delay:-1s
+}
+
+#homePage{
+  text-align: center;
+  background-color:#fff2ea;
+}
+
+.divider{
+  width:70%;
+  margin-left:15%;
+  margin-right:15%;
+  background:#fdb49c;
+  height:0.5vh;
+  margin-top:2vh;
+  margin-bottom:2vh;
+}
+
+#aboutMe{
+  background: linear-gradient(#fff2ea, white);
+  display:flex;
+  flex-direction:column;
+  margin-bottom:10vh;
+  justify-content: center;
+}
+
+#aboutMeContent{
+  /* padding-left: 2vw; */
+  text-align:center;
+  padding-left:2vh;
+  padding-right:2vh;
+  max-width:60%;
+}
+
+.BioTitle{
+  margin-top:5vh;
+  margin-bottom:2vh;
+  transform:translateX(2vw);
+  color:#f6bfad;
+}
+
+#HobbyList{
+  font-size:14pt;
+  text-align:left;
+}
+
+.hobbies{
+  padding-top:0.5vh;
+}
+
+.galleryImages{
+  height:auto;
+  max-width:90%;
+  /* max-height:100%;
+  max-width:100%; */
+  margin: 2vh;
+}
+
+#roseAndBook{
+  max-width:80%;
+}
+
+#AspTitle{
+  margin-bottom:0;
+}
+
+body{
+  display:flex;
+  flex-direction:column;
+}
+
+#AchievementsId{
+  background-color: white;
+  padding:1px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  padding-bottom:6vh;
+}
+
+.achievements{
+  padding:2vh;
+  font-size:14pt;
+  font-weight:550;
+  font-family:
+}
+
+.rowContainer{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  align-items:center;
+}
+
+.rowOfImages{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+
+section:last-of-type{
+  padding-bottom: 20px;
+  
+}
+
+#musicID{
+  padding-bottom:6vh;
+}
+
+.queenImage{
+  height:40vh;
+  margin-right:2vw;
+  margin-left:2vw;
+}
+
+.sideBar{
+  height:inherit;
+  width:20vw;
+  background:#fff2ea;
+}
+
+.mainPage{
+  width:60vw;
+}
+
+#GCCtitle{
+  text-align:right;
+  padding-right: 2vw;
+}
+
+.GCCtopics{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  width:80%;
+  text-align:center;
+  padding-top:2vh;
+  padding-bottom:4vh;
+  
+}
+
+.generalP{
+  padding-top:1.5vh;
+}
+
+#GlobalC{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.GCCearth{
+  height:30vh;
+}
+
+#efforts{
+  margin-top:4vh;
+  text-align:initial;
+}
+
+#waterfall{
+  height: 20vh;
+  width: 20vh;
+}
+
+#garden{
+  width:20vh;
+  margin-top:2vh;
+}
+
+#money{
+  width: 25vh;
+  /* max-height:100%;
+  max-width:100%; */
+}
+
+#books{
+  width:45vh
+}
+
+#effortDescription{
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  height:inherit;
+  
+}
+
+#contactinfo{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+  background-color:#fed7ba;
+  padding-top:1vh;
+  padding-bottom:1vh;
+  color:#787878
+}
+
+@keyframes slider{
+  from{
+    transform: translateX(-100%);
+    
+    /* padding-right:1000px; */
+    /* justify-content: flex-start; */
+    /* width:1000px; */
+  }
+  90%{
+    transform: translateX(5%);
+  }
+  to{
+    transform: translateX(0);
+    
+    /* padding-right: 0px; */
+    /* justify-content: center; */
+    /* width:inherit; */
+  }
+}
+
+@keyframes fade{
+  from{
+    opacity:0;
+  }
+  to{
+    opacity: 100;
+  }
+}
+#heading{
+  animation:slider 2s;
+}
+

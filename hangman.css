@@ -1,0 +1,30 @@
+#navigation{
+  background:darkred;
+  height:4vh;
+}
+
+#hangman{
+  background:green;
+  height: 45vh;
+}
+
+#word{
+  background:pink;
+  height: 15vh;
+  font-size: 40px;
+  text-align:center;
+  padding-top:4vh;
+}
+
+#keyboard{
+  background:blue;
+  height: 30vh;
+  text-align:center;
+}
+
+#inp{
+  text-align:center;
+  height: 10vh;width: 7vw;
+  font-size: 40px;
+}
+
