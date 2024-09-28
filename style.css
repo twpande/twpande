@@ -16,14 +16,14 @@ h1 {
   text-align: center;
   color:#f2948b;
   font-size:9vh;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family:'Times New Roman', serif;
 }
 
 .sectionTitle {
   color: #fdb49c;
   padding-left: 2vh;
   font-size: 30pt;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family:'Times New Roman', serif;
   padding-top:4vh
 }
 
@@ -31,7 +31,7 @@ h1 {
   display:flex;
   justify-content:center;
   align-items:center;
-  background-image:url("aesthetic\ beach\ pic.avif");
+  background-image:url("aesthetic\ beach\ pic.jpeg");
   background-size:cover;
   height:35vh;
   color:#b9726a;
@@ -127,7 +127,6 @@ body{
   padding:2vh;
   font-size:14pt;
   font-weight:550;
-  font-family:
 }
 
 .rowContainer{
